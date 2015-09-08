@@ -1,0 +1,122 @@
+@media screen and (min-width: 550px) {
+
+  /* Headline Enlarged when larger than mobile-sized, only change to headline. */
+
+  h1 {
+    font-size: 2em;
+  }
+
+
+/* Home page given 2 column layout when larger than mobile-sized, only change to home page. */
+
+
+  #contactSection,
+  #customerSection,
+  #pricingSection {
+
+    max-width: 50%;
+    display: inline-block;
+    float: left;
+    padding-right: 7%;
+  }
+
+  #serviceSection {
+    max-width: 50%;
+    display: inline-block;
+    float: right;
+    margin-bottom: 150px;    
+  }
+
+}
+
+/* About Us page given two column layout at larger than mobile size. Margin adjustments at multiple points to deal with floating issues*/
+
+
+@media screen and (min-width: 550px) { 
+
+ #aboutUsP1 {
+    float: left;
+    max-width: 45%;
+    margin-bottom: 30%;
+  }
+
+  #aboutUsP2 {
+    float: left;
+    max-width: 45%;
+    margin-top: -25%;
+    margin-bottom: 50%;
+  }
+
+  #aboutUsImg1,
+  #aboutUsImg2,
+  #aboutUsImg3 {
+    float: right;
+    max-width: 45%;
+  }
+
+}
+
+@media screen and (min-width: 720px) {
+
+  #aboutUsP1 {
+    margin-bottom: 60%;
+  }
+
+  #aboutUsP2 {
+   margin-top: -55%
+  }
+
+  #aboutUsImg1,
+  #aboutUsImg2 {
+    margin-top: -3%;
+  }
+
+  #aboutUsImg2 {
+    margin-bottom: 50%;
+  }
+
+  #aboutUsImg3 {
+    float: left;
+    margin-top: -50%;
+  }
+
+}
+
+
+  @media screen and (min-width: 550px) and (max-width: 859px){
+
+    /* Info page given narrower single column layout at tablet sizes*/
+
+  #whyOilSection,
+  #reviewSection,
+  #tipsSection {
+    max-width: 66%;
+    margin: 5% 17%;
+  }
+
+}
+
+/* Info page given two column layout at PC sizes*/
+
+@media screen and (min-width: 860px) {
+
+  #whyOilSection,
+  #reviewSection {
+    max-width: 50%;
+    float: left;
+    display: inline-block;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  #tipsSection {
+    max-width: 50%;
+    float: right;
+    display: inline-block;
+    margin-bottom: 300px;
+    padding-right: 10%;
+  }
+  
+}
+
+

@@ -1,0 +1,345 @@
+/*******************************
+  GENERAL
+*******************************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Droid Serif', sans-serif;
+  font-weight: 500;
+}
+
+#wrapper {
+  max-width: 1080px; 
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding-left: 1%;
+  margin-left: 1%;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h1,
+h3,
+h4 {
+  font-family: "Ultra", cursive;
+  text-shadow: 2px 2px 4px #ccc;
+}
+
+/*******************************
+  HEADING
+*******************************/
+
+header  {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+  
+
+#logo  {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin: 15px 15%;
+  padding-bottom: 5px;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1.5em;
+  text-align: center;
+  letter-spacing: .1em;
+  border-bottom: 3px solid;
+}
+
+#slogan {
+  text-align: center;
+  color: #b22222;
+  font-family: 'Ultra', cursive;
+  font-size: .8em;
+  letter-spacing: .05em;
+  margin: 0 10%;
+}
+
+
+/*******************************
+  NAVIGATION
+*******************************/
+
+nav {
+  text-align: center;
+  padding: 5px 0;
+  margin: 20px 0 0;
+ }
+
+nav ul {
+  list-style: none;
+  margin: 0 5%;
+  padding:0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a  {
+  font-weight: 800;
+  padding: 15px 5px;
+}
+
+.homeButton {
+  border-left: 2px solid #999;
+  padding-left: 5px;
+}
+
+.aboutButton {
+  border-left: 2px solid #999;
+  border-right: 2px solid #999;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.infoButton {
+  border-right: 2px solid #999;
+  padding-right: 5px;
+}
+
+/*******************************
+  FOOTER
+*******************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 150px;
+  line-height: 1.5;
+}
+
+
+/*******************************
+  PAGE HOME  
+*******************************/
+
+.sectionHeadline {
+  font-weight: 100;
+  letter-spacing: 0.2em;
+  color: #b22222;
+}
+
+.homeSection {
+  line-height: 1.5;
+  text-align: justify;
+  padding-right: 5%;
+  font-size: 0.9em;
+}
+
+.phoneNumber{
+  margin-bottom: 0;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #555;
+  letter-spacing: .2em;
+  
+}
+
+.mail {
+  margin-top: 0;
+  font-size: .9em;
+}
+
+#serviceSection{
+  line-height: 1.5;
+}
+
+.contactInfo {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#map {
+  /*border: solid 1px #b22222;*/
+  box-shadow: 0px 0px 10px #470E0E; 
+}
+
+/*******************************
+  PAGE: ABOUT
+*******************************/
+
+  #aboutUs img {
+    padding: 5% 0;
+  }
+
+/*******************************
+  PAGE: INFO
+*******************************/
+
+#tankForm,
+#inchesForm {
+  text-align: center;
+}
+
+
+.review {
+  font-family: none;
+  font-style: italic;
+  margin: 0 8%;
+  font-size: 1.1em;
+  font-weight: 600;
+
+}
+
+.reviewTag {
+  font-family: none;
+  font-style: italic;
+  padding-bottom: 10px;
+  border-bottom: solid 1px;
+  text-align: left;
+  font-weight: 600;
+}
+
+#tipsSection ul {
+  max-width: 260px;
+}
+
+  
+  /*******************************
+      OIL CALCULATOR
+  *******************************/
+
+
+    #oilCalculator {
+      width: 250px;
+      height: 200px;
+      border: solid 2px #b22222;
+      border-radius: 8px;
+    }
+
+    #calculatorHeader {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 0px;
+      padding-top: 10px;
+      margin: 0;
+    }
+
+    #calculatorHeader p {
+      padding: 0;
+      margin: -18px 0 0 0;
+      color: #b22222;
+      font-size: 1.5em;
+
+    }
+
+    #calculatorHeader h4 {
+      padding: 5px 0 0 0;
+      margin: 0;
+      color: #b22222;
+      letter-spacing: 0.2em;
+    }
+
+    #inchesSelect {
+      float: right;
+    }
+
+    #tankSelect {
+      float: left;
+    }
+
+    #tankSelect,
+    #inchesSelect
+     {
+      text-align: center;
+      width: 50%;
+      color: #b22222;
+      margin-bottom: 10px;
+    }
+
+    #tankSelect p,
+    #inchesSelect p {
+      margin: 0;
+    }
+
+    #clickButton {
+
+      margin-left: 85px;
+      margin-bottom: 12px;
+    }
+
+    
+    #calculatorOutput {
+      height: 60px;
+      width: 100%;
+      color: #b22222;
+      text-align: left;
+    }
+
+    #calculatorOutput span {
+      letter-spacing: 0;
+      padding: 0 2px 0 10px;
+    }
+
+    #calculatorOutput h4 {
+      display: inline;
+      letter-spacing: 0.15em;
+    }
+
+
+
+
+/*******************************
+  COLORS
+*******************************/
+body  {
+  background-color: #fff;
+  color: #666;
+}
+
+header {
+  background: white;
+}
+
+
+h1 {
+  color: #b22222;
+ } 
+
+
+nav {
+  background: white;
+}
+
+nav a, 
+nav a:visited {
+  color: #777;
+}
+nav a.selected, 
+nav a:hover {
+  color: maroon;}
+
+li a {
+  color:inherit;
+}
+
+a.textLink {
+
+  color: #b22222;
+}
